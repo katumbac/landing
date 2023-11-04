@@ -25,6 +25,7 @@
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
   <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
   <link href="assets/css/main.css" rel="stylesheet">
 
   <!-- =======================================================
@@ -57,8 +58,6 @@
           <li><a href="#contact">Contacto</a></li>
         </ul>
       </nav><!-- .navbar -->
-
-      <a class="btnreservar" href="#contact">RESERVAR</a>
       <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
       <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
 
@@ -69,15 +68,15 @@
   <section id="hero" class="hero">
     <div class="container">
       <div class="herocontent">
-        <div class="col-lg-5 order-2 order-lg-1 d-flex flex-column justify-content-center align-items-center align-items-lg-start text-center text-lg-start">
+        <div class="herointro">
           <h2 data-aos="fade-up">Escape de lujo<br>tu opción para el relax</h2>
           <p data-aos="fade-up" data-aos-delay="100">Experimenta la comodidad, elegancia y la belleza de la naturaleza.</p>
-          <div class="d-flex" data-aos="fade-up" data-aos-delay="200">
+          <div data-aos="fade-up" data-aos-delay="200">
             <a href="#contact" class="btnreservar">Reservar Ahora</a>
           </div>
         </div>
-        <div class="col-lg-5 order-1 order-lg-2 text-center text-lg-start">
-          <img src="assets/img/place.jpg" class="img-fluid" alt="" data-aos="zoom-out" data-aos-delay="400">
+        <div class="heroimg">
+          <img src="assets/img/place.jpg" class="imgh" alt="" data-aos="zoom-out" data-aos-delay="400">
         </div>
       </div>
     </div>
@@ -94,7 +93,7 @@
           <p>Resort Ecu <span>Acerca de Nosotros</span></p>
         </div>
 
-        <div class="row gy-4">
+        <div class="info">
           <div class="col-lg-7 position-relative about-img" style="background-image: url(assets/img/about.jpg) ;" data-aos="fade-up" data-aos-delay="150">
             <div class="call-us position-absolute">
               <h4>Reserva Ahora</h4>
@@ -130,7 +129,7 @@
     <section id="stats-counter" class="stats-counter">
       <div class="container" data-aos="zoom-out">
 
-        <div class="row gy-4">
+        <div class="info">
 
           <div class="col-lg-3 col-md-6">
             <div class="stats-item text-center w-100 h-100">
@@ -166,96 +165,6 @@
     </section><!-- End Stats Counter Section -->
 
     
-    <!-- ======= opiniones Section ======= -->
-    <section id="opiniones" class="opiniones section-bg">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-header">
-          <h2>Opiniones</h2>
-          <p>¿Cómo son <span>Sus experiencias</span>?</p>
-        </div>
-
-        <div class="slides-1 swiper" data-aos="fade-up" data-aos-delay="100">
-          <div class="swiper-wrapper">
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <div class="row gy-4 justify-content-center">
-                  <div class="col-lg-6">
-                    <div class="testimonial-content">
-                      <p>
-                        <i class="bi bi-quote quote-icon-left"></i>
-                        Este resort es una opción ideal para aquellos que buscan relajarse y disfrutar de unas vacaciones inolvidables en Ecuador.
-                        <i class="bi bi-quote quote-icon-right"></i>
-                      </p>
-                      <h3>Johel Tumbaco</h3>
-                      <div class="stars">
-                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-lg-2 text-center">
-                    <img src="assets/img/opiniones/opiniones-1.jpg" class="img-fluid testimonial-img" alt="">
-                  </div>
-                </div>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <div class="row gy-4 justify-content-center">
-                  <div class="col-lg-6">
-                    <div class="testimonial-content">
-                      <p>
-                        <i class="bi bi-quote quote-icon-left"></i>
-                        La atención al cliente, las comodidades de las habitaciones y la variedad de actividades hacen de este resort una opción ideal para relajarse y disfrutar de todo lo que este hermoso país tiene para ofrecer. Sin duda, volvería a visitar este resort en el futuro.
-                        <i class="bi bi-quote quote-icon-right"></i>
-                      </p>
-                      <h3>Katherine Tumbaco</h3>
-                      <div class="stars">
-                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-lg-2 text-center">
-                    <img src="assets/img/opiniones/opiniones-2.jpg" class="img-fluid testimonial-img" alt="">
-                  </div>
-                </div>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <div class="row gy-4 justify-content-center">
-                  <div class="col-lg-6">
-                    <div class="testimonial-content">
-                      <p>
-                        <i class="bi bi-quote quote-icon-left"></i>
-                         Mi estancia fue simplemente increíble. Las habitaciones eran espaciosas y cómodas, y el personal se aseguró de que tuviera todo lo que necesitaba para una estancia agradable. Lo que realmente me cautivó fueron las actividades emocionantes que el resort ofrecía. Sin duda alguna, recomendaría este resort a cualquiera que esté buscando unas vacaciones inolvidables en Ecuador.
-                        <i class="bi bi-quote quote-icon-right"></i>
-                      </p>
-                      <h3>Stephany Cabezas</h3>
-                      <div class="stars">
-                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-lg-2 text-center">
-                    <img src="assets/img/opiniones/opiniones-3.jpg" class="img-fluid testimonial-img" alt="">
-                  </div>
-                </div>
-              </div>
-            </div><!-- End testimonial item -->
-
-            
-
-          </div>
-          <div class="swiper-pagination"></div>
-        </div>
-
-      </div>
-    </section><!-- End opiniones Section -->
-
     <!-- ======= Events Section ======= -->
     <section id="events" class="events">
       <div class="container-fluid" data-aos="fade-up">
@@ -335,7 +244,7 @@
           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d255161.96632804573!2d-79.88906618197015!3d-2.1894127998655297!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x902d13cbe855805f%3A0x8015a492f4fca473!2sGuayaquil!5e0!3m2!1ses!2sec!4v1698675155909!5m2!1ses!2sec" width=100% height=350px style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div><!-- End Google Maps -->
 
-        <div class="row gy-4">
+        <div class="info">
 
           <div class="col-md-6">
             <div class="info-item  d-flex align-items-center">
